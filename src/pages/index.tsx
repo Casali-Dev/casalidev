@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "./home.module.scss";
 
 export default function Home() {
@@ -19,14 +20,22 @@ export default function Home() {
         <div className={styles.games}>
           <div className={styles.gameInfo}>
             <h2>Button Game</h2>
-            <a href="https://casali-button-game.vercel.app/" target="_blank">
-              <img src="images/button-game-image.png" alt="Button Game" />
+            <a
+              href="https://casali-button-game.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image src="images/button-game-image.png" alt="Button Game" />
             </a>
           </div>
           <div className={styles.gameInfo}>
             <h2>Space Code (WIP)</h2>
-            <a href="https://space-code.vercel.app/" target="_blank">
-              <img
+            <a
+              href="https://space-code.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
                 src="images/space-code-wip-image.png"
                 alt="Space Code (WIP)"
               />
