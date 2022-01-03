@@ -25,11 +25,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <Image
-                className={styles.img}
-                src="images/button-game-image.png"
-                alt="Button Game"
-              />
+              <img src="images/button-game-image.png" alt="Button Game" />
             </a>
           </div>
           <div className={styles.gameInfo}>
@@ -39,8 +35,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <Image
-                className={styles.img}
+              <img
                 src="images/space-code-wip-image.png"
                 alt="Space Code (WIP)"
               />
